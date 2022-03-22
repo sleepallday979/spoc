@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
 
 /**
 * @author Tsd
-* @description 针对表【s_do】的数据库操作Service实现
-* @createDate 2022-03-22 18:28:31
+* @description 针对表【s_do(作业完成情况表)】的数据库操作Service实现
+* @createDate 2022-03-22 19:47:22
 */
 @Service
 public class SDoServiceImpl extends ServiceImpl<SDoMapper, SDo>

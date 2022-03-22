@@ -6,8 +6,8 @@ import com.wsy.server.domain.SReq;
 
 /**
 * @author Tsd
-* @description 针对表【s_req】的数据库操作Service
-* @createDate 2022-03-22 18:28:40
+* @description 针对表【s_req(回复表)】的数据库操作Service
+* @createDate 2022-03-22 19:47:22
 */
 public interface SReqService extends IService<SReq> {
 

@@ -6,8 +6,8 @@ import com.wsy.server.domain.SRole;
 
 /**
 * @author Tsd
-* @description 针对表【s_role】的数据库操作Service
-* @createDate 2022-03-22 18:28:47
+* @description 针对表【s_role(角色表)】的数据库操作Service
+* @createDate 2022-03-22 19:47:22
 */
 public interface SRoleService extends IService<SRole> {
 

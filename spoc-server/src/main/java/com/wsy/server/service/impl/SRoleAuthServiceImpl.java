@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
 
 /**
 * @author Tsd
-* @description 针对表【s_role_auth】的数据库操作Service实现
-* @createDate 2022-03-22 18:28:49
+* @description 针对表【s_role_auth(角色权限表)】的数据库操作Service实现
+* @createDate 2022-03-22 19:47:22
 */
 @Service
 public class SRoleAuthServiceImpl extends ServiceImpl<SRoleAuthMapper, SRoleAuth>
