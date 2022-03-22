@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="generator.mapper.SResourseMapper">
+
+    <resultMap id="BaseResultMap" type="com.wsy.server.domain.SResourse">
+            <id property="resourceId" column="resource_id" jdbcType="INTEGER"/>
+            <result property="courseId" column="course_id" jdbcType="INTEGER"/>
+            <result property="userId" column="user_id" jdbcType="INTEGER"/>
+            <result property="resourceName" column="resource_name" jdbcType="VARCHAR"/>
+            <result property="resourceDesc" column="resource_desc" jdbcType="VARCHAR"/>
+            <result property="resourceTime" column="resource_time" jdbcType="TIMESTAMP"/>
+            <result property="resourceSpace" column="resource_space" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        resource_id,course_id,user_id,
+        resource_name,resource_desc,resource_time,
+        resource_space
+    </sql>
+</mapper>
